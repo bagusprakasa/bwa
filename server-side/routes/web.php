@@ -19,3 +19,7 @@ Auth::routes(['register' => false]);
 
 
 Route::resource('/products', 'ProductController');
+Route::resource('/product-galleries', 'ProductGalleryController');
+// Route::resource('/transactions', 'TransactionController');
+
+// video nomer 11
