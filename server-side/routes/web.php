@@ -19,5 +19,3 @@ Auth::routes(['register' => false]);
 
 
 Route::resource('/products', 'ProductController');
-Route::resource('/products/create', 'ProductController');
-// Route::get('/products', 'ProductController@index');
